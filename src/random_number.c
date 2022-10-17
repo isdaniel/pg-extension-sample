@@ -13,6 +13,7 @@ Datum random_number( PG_FUNCTION_ARGS );
 Datum 
 random_number( PG_FUNCTION_ARGS )
 {
-	int rnd_number = 111;
+	srand( time(NULL) );
+	int rnd_number = rand();
 	PG_RETURN_INT32( rnd_number );
 }
