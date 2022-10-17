@@ -1,0 +1,5 @@
+# hostname extension
+comment = 'Get the random number'
+default_version = '1.0.0'
+module_pathname = '$libdir/random_number'
+relocatable = true

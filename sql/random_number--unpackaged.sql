@@ -1,0 +1,1 @@
+ALTER EXTENSION hostname ADD FUNCTION random_number();

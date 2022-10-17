@@ -1,0 +1,1 @@
+DROP FUNCTION random_number();
