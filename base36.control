@@ -1,0 +1,3 @@
+comment = 'Get the random number'
+default_version = '0.0.1'
+relocatable = true
